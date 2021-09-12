@@ -12,7 +12,14 @@ namespace ch2
         {
             int a = 2;
             int b = 3;
-            int tot = a + b;
+            //int tot = a + b;
+            //Console.WriteLine("a + b = {0}", tot);
+            Sum(a, b);
+        }
+
+        private static void Sum(int c, int d)
+        {
+            int tot = c + d;
             Console.WriteLine("a + b = {0}", tot);
         }
     }
