@@ -14,13 +14,18 @@ namespace ch2
             int b = 3;
             //int tot = a + b;
             //Console.WriteLine("a + b = {0}", tot);
-            Sum(a, b);
+            int hap = Plus.Sum(a, b);
+            Console.WriteLine("a+b={0}", hap);
         }
 
-        private static void Sum(int c, int d)
-        {
-            int tot = c + d;
-            Console.WriteLine("a + b = {0}", tot);
-        }
     }
+    //public class Plus
+    //{
+    //    public static int Sum(int a1, int b1)
+    //    {
+    //        int tot;
+    //        tot = a1 + b1;
+    //        return tot;
+    //    }
+    //}
 }

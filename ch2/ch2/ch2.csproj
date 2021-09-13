@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ch2.Method</StartupObject>
+    <StartupObject>ch2.Jumin</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,9 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GBB.cs" />
+    <Compile Include="Jumin.cs" />
     <Compile Include="Method.cs" />
+    <Compile Include="Plus.cs" />
+    <Compile Include="Program_Memory.cs" />
+    <Compile Include="Sungjuk.cs" />
     <Compile Include="데이터형식.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="성적입력.cs" />
+    <Compile Include="숫자퀴즈2.cs" />
+    <Compile Include="조건연산자.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
