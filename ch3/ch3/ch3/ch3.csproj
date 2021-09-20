@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ch3.Total</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,6 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="For_Star.cs" />
+    <Compile Include="Gugudan.cs" />
+    <Compile Include="switch_hakjum.cs" />
+    <Compile Include="Total.cs" />
     <Compile Include="가위바위보.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
