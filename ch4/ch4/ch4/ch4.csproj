@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ch4.이차원배열</StartupObject>
+    <StartupObject>ch4.빈도수_최빈값</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,8 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Hap_Min_Max_Aver.cs" />
+    <Compile Include="Ranking.cs" />
+    <Compile Include="Search.cs" />
+    <Compile Include="막대그래프.cs" />
     <Compile Include="문자열 비교.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="빈도수_최빈값.cs" />
+    <Compile Include="성적처리.cs" />
     <Compile Include="이차원배열.cs" />
     <Compile Include="일차원배열.cs" />
   </ItemGroup>
