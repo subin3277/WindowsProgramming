@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ch4.빈도수_최빈값</StartupObject>
+    <StartupObject>ch4.로또번호생성기</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,8 @@
     <Compile Include="Hap_Min_Max_Aver.cs" />
     <Compile Include="Ranking.cs" />
     <Compile Include="Search.cs" />
+    <Compile Include="Sort.cs" />
+    <Compile Include="로또번호생성기.cs" />
     <Compile Include="막대그래프.cs" />
     <Compile Include="문자열 비교.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
