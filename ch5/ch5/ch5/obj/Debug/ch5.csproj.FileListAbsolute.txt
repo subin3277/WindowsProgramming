@@ -1,0 +1,7 @@
+D:\바탕화면\윈도우즈프로그래밍\ksb254\ch5\ch5\ch5\bin\Debug\ch5.exe.config
+D:\바탕화면\윈도우즈프로그래밍\ksb254\ch5\ch5\ch5\bin\Debug\ch5.exe
+D:\바탕화면\윈도우즈프로그래밍\ksb254\ch5\ch5\ch5\bin\Debug\ch5.pdb
+D:\바탕화면\윈도우즈프로그래밍\ksb254\ch5\ch5\ch5\obj\Debug\ch5.csprojAssemblyReference.cache
+D:\바탕화면\윈도우즈프로그래밍\ksb254\ch5\ch5\ch5\obj\Debug\ch5.csproj.CoreCompileInputs.cache
+D:\바탕화면\윈도우즈프로그래밍\ksb254\ch5\ch5\ch5\obj\Debug\ch5.exe
+D:\바탕화면\윈도우즈프로그래밍\ksb254\ch5\ch5\ch5\obj\Debug\ch5.pdb
