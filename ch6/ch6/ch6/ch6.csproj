@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F052CE8E-0476-4187-8478-05654C6D48C8}</ProjectGuid>
+    <ProjectGuid>{225FB181-451B-4E29-B501-B05DB6EFCBAA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ch5</RootNamespace>
-    <AssemblyName>ch5</AssemblyName>
+    <RootNamespace>ch6</RootNamespace>
+    <AssemblyName>ch6</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>ch5.네임스페이스연습</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,20 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Method.cs" />
-    <Compile Include="Method_Class.cs" />
-    <Compile Include="OutExec.cs" />
-    <Compile Include="Person.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Ref_Swap.cs" />
-    <Compile Include="Ref_Test.cs" />
-    <Compile Include="ReturnExec.cs" />
-    <Compile Include="Test.cs" />
-    <Compile Include="ValueSwap.cs" />
-    <Compile Include="Value_Test.cs" />
-    <Compile Include="Value_Type.cs" />
-    <Compile Include="네임스페이스연습.cs" />
-    <Compile Include="참조형.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
