@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ch6.속성</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,8 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="디폴트생성자.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="매개생성자.cs" />
+    <Compile Include="생성자.cs" />
+    <Compile Include="속성.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

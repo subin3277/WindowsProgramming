@@ -1,0 +1,7 @@
+D:\바탕화면\윈도우즈프로그래밍\ksb254\ch6\ch6\ch6\bin\Debug\ch6.exe.config
+D:\바탕화면\윈도우즈프로그래밍\ksb254\ch6\ch6\ch6\bin\Debug\ch6.exe
+D:\바탕화면\윈도우즈프로그래밍\ksb254\ch6\ch6\ch6\bin\Debug\ch6.pdb
+D:\바탕화면\윈도우즈프로그래밍\ksb254\ch6\ch6\ch6\obj\Debug\ch6.csprojAssemblyReference.cache
+D:\바탕화면\윈도우즈프로그래밍\ksb254\ch6\ch6\ch6\obj\Debug\ch6.csproj.CoreCompileInputs.cache
+D:\바탕화면\윈도우즈프로그래밍\ksb254\ch6\ch6\ch6\obj\Debug\ch6.exe
+D:\바탕화면\윈도우즈프로그래밍\ksb254\ch6\ch6\ch6\obj\Debug\ch6.pdb
