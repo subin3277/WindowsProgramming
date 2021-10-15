@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ch6.속성</StartupObject>
+    <StartupObject>ch6.Property_Test</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Property_Test.cs" />
     <Compile Include="디폴트생성자.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="매개생성자.cs" />
