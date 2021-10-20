@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jumin", "Jumin\Jumin.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jumin_DLL", "Jumin_DLL\Jumin_DLL.csproj", "{2D4DF644-7FAE-4636-B39A-C2AE21CBBE2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "가위바위보", "김수빈_가위바위보\가위바위보.csproj", "{5DBF18A5-42F4-40ED-B0D9-2051AAC05C43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "김수빈_가위바위보", "GBB\김수빈_가위바위보.csproj", "{57D56338-5ED9-47A1-8E07-B461DB482FDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{2D4DF644-7FAE-4636-B39A-C2AE21CBBE2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D4DF644-7FAE-4636-B39A-C2AE21CBBE2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D4DF644-7FAE-4636-B39A-C2AE21CBBE2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DBF18A5-42F4-40ED-B0D9-2051AAC05C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DBF18A5-42F4-40ED-B0D9-2051AAC05C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DBF18A5-42F4-40ED-B0D9-2051AAC05C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DBF18A5-42F4-40ED-B0D9-2051AAC05C43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57D56338-5ED9-47A1-8E07-B461DB482FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D56338-5ED9-47A1-8E07-B461DB482FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D56338-5ED9-47A1-8E07-B461DB482FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D56338-5ED9-47A1-8E07-B461DB482FDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
