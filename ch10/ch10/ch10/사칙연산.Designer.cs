@@ -106,6 +106,7 @@
             this.btnMinus.TabIndex = 7;
             this.btnMinus.Text = "-";
             this.btnMinus.UseVisualStyleBackColor = true;
+            this.btnMinus.Click += new System.EventHandler(this.BtnMinus_Click);
             // 
             // btnMulti
             // 
@@ -115,6 +116,7 @@
             this.btnMulti.TabIndex = 8;
             this.btnMulti.Text = "*";
             this.btnMulti.UseVisualStyleBackColor = true;
+            this.btnMulti.Click += new System.EventHandler(this.BtnMulti_Click);
             // 
             // btnDup
             // 
@@ -124,6 +126,7 @@
             this.btnDup.TabIndex = 9;
             this.btnDup.Text = "/";
             this.btnDup.UseVisualStyleBackColor = true;
+            this.btnDup.Click += new System.EventHandler(this.BtnDup_Click);
             // 
             // 사칙연산
             // 

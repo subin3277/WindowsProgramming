@@ -19,7 +19,22 @@ namespace ch10
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            txtRes.Text = txtA.Text. +
+            txtRes.Text = (Convert.ToSingle(txtA.Text) + Convert.ToSingle(txtB.Text)).ToString();
+        }
+
+        private void BtnMinus_Click(object sender, EventArgs e)
+        {
+            txtRes.Text = (Convert.ToSingle(txtA.Text) - Convert.ToSingle(txtB.Text)).ToString();
+        }
+
+        private void BtnMulti_Click(object sender, EventArgs e)
+        {
+            txtRes.Text = (Convert.ToSingle(txtA.Text) * Convert.ToSingle(txtB.Text)).ToString();
+        }
+
+        private void BtnDup_Click(object sender, EventArgs e)
+        {
+            txtRes.Text = (Convert.ToSingle(txtA.Text) / Convert.ToSingle(txtB.Text)).ToString();
         }
     }
 }
