@@ -16,8 +16,9 @@ namespace ch10
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            //Application.Run(new MainForm());
             //Application.Run(new 과제1());
+            Application.Run(new 사칙연산());
         }
     }
 }
