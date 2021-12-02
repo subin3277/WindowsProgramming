@@ -17,7 +17,9 @@ namespace ch11_Event
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new FrmKeyBoard());
-            Application.Run(new FrmKeyInput());
+            //Application.Run(new FrmKeyInput());
+            //Application.Run(new FrmMouseDown());
+            Application.Run(new FrmKeyDown());
         }
     }
 }

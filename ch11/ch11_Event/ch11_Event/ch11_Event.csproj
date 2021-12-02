@@ -53,19 +53,37 @@
     <Compile Include="FrmKeyBoard.Designer.cs">
       <DependentUpon>FrmKeyBoard.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmKeyDown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmKeyDown.Designer.cs">
+      <DependentUpon>FrmKeyDown.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmKeyInput.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmKeyInput.Designer.cs">
       <DependentUpon>FrmKeyInput.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmMouseDown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMouseDown.Designer.cs">
+      <DependentUpon>FrmMouseDown.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmKeyBoard.resx">
       <DependentUpon>FrmKeyBoard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmKeyDown.resx">
+      <DependentUpon>FrmKeyDown.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmKeyInput.resx">
       <DependentUpon>FrmKeyInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMouseDown.resx">
+      <DependentUpon>FrmMouseDown.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
