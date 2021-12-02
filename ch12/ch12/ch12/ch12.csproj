@@ -52,11 +52,23 @@
     <Compile Include="CheckBoxList.Designer.cs">
       <DependentUpon>CheckBoxList.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmCombo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCombo.Designer.cs">
+      <DependentUpon>FrmCombo.cs</DependentUpon>
+    </Compile>
     <Compile Include="RadioButton.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="RadioButton.Designer.cs">
       <DependentUpon>RadioButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RadioButton_과제.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RadioButton_과제.Designer.cs">
+      <DependentUpon>RadioButton_과제.cs</DependentUpon>
     </Compile>
     <Compile Include="체크박스연습.cs">
       <SubType>Form</SubType>
@@ -69,6 +81,9 @@
     <EmbeddedResource Include="CheckBoxList.resx">
       <DependentUpon>CheckBoxList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmCombo.resx">
+      <DependentUpon>FrmCombo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -80,6 +95,9 @@
     </Compile>
     <EmbeddedResource Include="RadioButton.resx">
       <DependentUpon>RadioButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RadioButton_과제.resx">
+      <DependentUpon>RadioButton_과제.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="체크박스연습.resx">
       <DependentUpon>체크박스연습.cs</DependentUpon>

@@ -18,7 +18,9 @@ namespace ch12
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new 체크박스연습());
             //Application.Run(new CheckBoxList());
-            Application.Run(new FrmRadio());
+            //Application.Run(new FrmRadio());
+            //Application.Run(new RadioButton_과제());
+            Application.Run(new FrmCombo());
         }
     }
 }
