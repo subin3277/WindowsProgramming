@@ -18,6 +18,7 @@ namespace ch13
         char oper;
         char oper2;
         double result;
+        int checkNum = 0; //연속계산을 위한 체크 변수
 
         public 수빈계산기()
         {
