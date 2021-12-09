@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ch13.exe" version="1.0.0.0" publicKeyToken="650e40e63ac3a0fd" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ch13" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ch13.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 매니페스트 옵션
+          Windows 사용자 계정 컨트롤 수준을 변경하려면 
+          requestedExecutionLevel 노드를 다음 중 하나로 바꾸세요.
+
+          <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+          <requestedExecutionLevel level="requireAdministrator" uiAccess="false" />
+          <requestedExecutionLevel level="highestAvailable" uiAccess="false" />
+
+          이전 버전과의 호환성을 위해 파일 및 레지스트리 가상화를 사용하려면 
+          requestedExecutionLevel 노드를 삭제하세요.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ch13.exe" size="13272">
+      <assemblyIdentity name="ch13" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rR1lY5d5kIZSBgSEg6JQnogyhYtFI6i/DrcKjbjGjOE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ch13.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SUBIN\Administrator" issuerKeyHash="0d0abd6ff9e371135a6d3d5bec13ce3e847d1484" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>p2MdzPnSUO1FmcfgSVaFPQJCiNetTebJM2c6FPjjh7A=</DigestValue></Reference></SignedInfo><SignatureValue>gnITHuPodxaDj6X6AgSNfANFEK3zQyDCZvpD+J8ZBEMJ3m5TM7gEPY3FnlXkhnso0y5/HqlI5CgnCgKGCB6iZJ10DA55QVMqhPf4SeD0tHOHkvKGhqTyAjjciPs3z5xGAKX1h8TjqTkvVC4Yc4L7rcyTPZWdPJXLDfe45RxHLJ0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>12LIJQG3giGb2y0h/vfURFlkbsi+5BQMJVTETczUy9eJ6Zy/tmngmSzeA0EJcmTUtgpOPo1wlx9MwndK6TjaResSpEBZNfqetwszHKrdi4QlubF+PlbhJ8UYAgpXltT3n+x4/6PTOBEUt8MSl+XHbZ8QZNk8rRXRRf+rSnm5Byk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b087e3f8143a6733c9e64dadd78842023d855649e0c79945ed50d2f9cc1d63a7" Description="" Url=""><as:assemblyIdentity name="ch13.exe" version="1.0.0.0" publicKeyToken="650e40e63ac3a0fd" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SUBIN\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>THFKzTX5dL+UGG4dQ1Ykpu8gSRdsoL3NdP40psNIUyM=</DigestValue></Reference></SignedInfo><SignatureValue>BVVAyBfRc9K1VZ8dIqfrDSQiCTnPRVePalBOKr99c+0p0IhA7CXqqmcmXg4050YPzaU+Cco4KQfuHBwgic4IeNfPub8xxKXA1oawi2LQm63WaBnkebGEQ2G7ez8AnvXHtQ8OOrxmE4/I37/SCboCCEjH/rrS6ZzBwmlYc76V3jw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>12LIJQG3giGb2y0h/vfURFlkbsi+5BQMJVTETczUy9eJ6Zy/tmngmSzeA0EJcmTUtgpOPo1wlx9MwndK6TjaResSpEBZNfqetwszHKrdi4QlubF+PlbhJ8UYAgpXltT3n+x4/6PTOBEUt8MSl+XHbZ8QZNk8rRXRRf+rSnm5Byk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQROGRlYuGrItB8WuFP1dE7DANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYAUwBVAEIASQBOAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjAeFw0yMTEyMDkwNjQ2NThaFw0yMjEyMDkxMjQ2NThaMDExLzAtBgNVBAMeJgBTAFUAQgBJAE4AXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDXYsglAbeCIZvbLSH+99REWWRuyL7kFAwlVMRNzNTL14npnL+2aeCZLN4DQQlyZNS2Ck4+jXCXH0zCd0rpONpF6xKkQFk1+p63CzMcqt2LhCW5sX4+VuEnxRgCCleW1Pef7Hj/o9M4ERS3wxKX5cdtnxBk2TytFdFF/6tKebkHKQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAHDDd9U9YT15a5dEIE5i2Y92HvdaZTNYTeGOIGftMvZBcXTQtlOXfgX9PxUQ9laOISFZVGkWbvy6r/ylGemaI3AvWbrBpXSvFb3jSE/gNkp2ytkeQq8l8+u5t2Tml11TLHXUDDG6GHkVjuv27sMVZrUGcxVWkA/99fLons/Pm1jJ</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
